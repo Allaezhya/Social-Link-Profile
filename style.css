@@ -1,10 +1,7 @@
-@font-face {
-	font-family: "Inter", sans-serif;
-	src: url();
-}
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -25,7 +22,10 @@ main {
 	align-items: center;
 	justify-content: flex-start;
 	background-color: hsl(0, 0%, 12%);
-	width: 70vh;
+	width: 60vh;
+	height: 70vh;
+	padding: 1em;
+	border-radius: 1em;
 }
 
 figure {
@@ -38,7 +38,13 @@ img {
 }
 
 h1 {
-	font: 700 2em/1.5em "Inter";
+	font: 600 2em/1.5em Inter;
 	color: white;
 	margin-bottom: 0.3em;
+}
+
+h2 {
+	font: 600 1.1em/1.2em Inter;
+	color: hsl(75, 94%, 57%);
+	margin-bottom: 0.5em;
 }
