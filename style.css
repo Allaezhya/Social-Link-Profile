@@ -6,6 +6,9 @@
 
 body {
 	background-color: hsl(0, 0%, 8%);
+	color: white;
+	line-height: 1.5em;
+	font-family: "Inter";
 }
 
 header {
@@ -38,13 +41,16 @@ img {
 }
 
 h1 {
-	font: 600 2em/1.5em Inter;
-	color: white;
 	margin-bottom: 0.3em;
+	font-size: 2em;
 }
 
 h2 {
-	font: 600 1.1em/1.2em Inter;
 	color: hsl(75, 94%, 57%);
 	margin-bottom: 0.5em;
+	font-size: 1.1em;
+}
+
+blockquote {
+	margin: 1em 0;
 }
