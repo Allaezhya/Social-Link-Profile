@@ -1,5 +1,15 @@
 @media (max-width: 376px) {
 	main {
-		width: 276px;
+		width: 300px;
+		height: 90vh;
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	blockquote {
+		font-size: 0.8em;
+		margin-bottom: 2em;
 	}
 }
